@@ -6,3 +6,47 @@ Utkarsh ERA V6 Part1 Backpropogation
 
 
 
+## Major Steps
+### Input Layer
+
+- **Nodes**: `i1`, `i2`
+- **Description**: The input layer is where the network receives its input data. There are two input nodes in this network.
+
+### Weights between Input and Hidden Layer
+
+- **Weights**: `w1`, `w2`, `w3`, `w4`
+- **Description**: Each connection between the input and hidden layer nodes has an associated weight. These weights adjust the input values as they are passed to the next layer.
+
+### Hidden Layer
+
+- **Nodes**: `h1`, `h2`
+- **Description**: The hidden layer processes the inputs received from the input layer. It combines the weighted inputs and applies a nonlinear activation function. The diagram shows recurrent connections (`a_h1`, `a_h2`), suggesting that the output of the hidden nodes is fed back into themselves, indicative of a recurrent neural network (RNN) setup.
+
+### Weights between Hidden and Output Layer
+
+- **Weights**: `w5`, `w6`, `w7`, `w8`
+- **Description**: These weights modulate the signals being passed to the output layer from the hidden layer.
+
+### Output Layer
+
+- **Nodes**: `o1`, `o2`
+- **Description**: The output layer receives the processed signals from the hidden layer and generates the output of the network. Each output node represents a specific output value.
+
+### Activation at Output
+
+- **Activations**: `a_o1`, `a_o2`
+- **Description**: These denote the activation functions applied at the output nodes, determining the final output of each node.
+
+## Error Calculation
+
+- **Errors**: `E1`, `E2`
+- **Description**: The network calculates the error for each output node by comparing the actual output with the target output. The error formulas suggest a mean squared error calculation, common in regression tasks.
+
+### Total Error
+
+- **Node**: `E_Total`
+- **Description**: The total error of the network is calculated by summing the errors from all output nodes. This value is crucial during the training process.
+
+## Training
+
+The network is trained using a backpropagation algorithm to adjust the weights based on the calculated error. The goal is to minimize `E_Total` by iteratively updating the weights to improve the model's predictions.
