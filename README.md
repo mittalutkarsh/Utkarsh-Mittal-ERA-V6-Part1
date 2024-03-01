@@ -20,7 +20,7 @@ Utkarsh ERA V6 Part1 Backpropogation
 ### Hidden Layer
 
 - **Nodes**: `h1`, `h2`
-- **Description**: The hidden layer processes the inputs received from the input layer. It combines the weighted inputs and applies a nonlinear activation function. The diagram shows recurrent connections (`a_h1`, `a_h2`), suggesting that the output of the hidden nodes is fed back into themselves, indicative of a recurrent neural network (RNN) setup.
+- **Description**: The hidden layer processes the inputs received from the input layer. It combines the weighted inputs and applies a nonlinear sigmoid activation function. The diagram  connections (`a_h1`, `a_h2`).
 
 ### Weights between Hidden and Output Layer
 
@@ -40,7 +40,7 @@ Utkarsh ERA V6 Part1 Backpropogation
 ## Error Calculation
 
 - **Errors**: `E1`, `E2`
-- **Description**: The network calculates the error for each output node by comparing the actual output with the target output. The error formulas suggest a mean squared error calculation, common in regression tasks.
+- **Description**: The network calculates the error for each output node by comparing the actual output with the target output. Error formula suggests L2 Loss
 
 ### Total Error
 
