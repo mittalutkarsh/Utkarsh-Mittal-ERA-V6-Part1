@@ -50,3 +50,9 @@ Utkarsh ERA V6 Part1 Backpropogation
 ## Training
 
 The network is trained using a backpropagation algorithm to adjust the weights based on the calculated error. The goal is to minimize `E_Total` by iteratively updating the weights to improve the model's predictions.
+
+### Learning Rate - 0.1
+Loss function reduces linearly
+<img width="613" alt="image" src="https://github.com/mittalutkarsh/Utkarsh-Mittal-ERA-V6-Part1/assets/36775837/3c08a621-daac-4ac1-83b8-a8d7b08ba568">
+
+
