@@ -56,3 +56,37 @@ Loss function reduces linearly
 <img width="613" alt="image" src="https://github.com/mittalutkarsh/Utkarsh-Mittal-ERA-V6-Part1/assets/36775837/3c08a621-daac-4ac1-83b8-a8d7b08ba568">
 
 
+### Learning Rate - 0.2
+Loss function reduces more steeply
+
+<img width="491" alt="image" src="https://github.com/mittalutkarsh/Utkarsh-Mittal-ERA-V6-Part1/assets/36775837/4f3c8ef0-96e4-4354-956f-dc77294e62ff">
+
+### Learning Rate - 0.5
+Loss function reduces more steeply compared to 0.2
+
+<img width="491" alt="image" src="https://github.com/mittalutkarsh/Utkarsh-Mittal-ERA-V6-Part1/assets/36775837/d0004646-e2a2-4518-b0aa-d8cd37d29600">
+
+### Learning Rate - 0.8
+Loss function reduces more steeply compared to 0.5
+
+<img width="491" alt="image" src="https://github.com/mittalutkarsh/Utkarsh-Mittal-ERA-V6-Part1/assets/36775837/f6b11b18-f5aa-4189-9fa0-e3644ff9c00e">
+
+### Learning Rate - 1
+
+<img width="491" alt="image" src="https://github.com/mittalutkarsh/Utkarsh-Mittal-ERA-V6-Part1/assets/36775837/f3643ca7-8b49-4458-a073-925149186308">
+
+### Learning Rate - 2
+
+<img width="491" alt="image" src="https://github.com/mittalutkarsh/Utkarsh-Mittal-ERA-V6-Part1/assets/36775837/36863de2-4dfb-404b-b936-215f5414b854">
+
+
+
+
+
+
+
+
+
+
+
+
